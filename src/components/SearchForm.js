@@ -4,7 +4,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import formatDate from "../utils.js";
 
 export default function SearchForm(props) {
-  const environment = process.env.REACT_APP_NODE_ENV;
+  const environment = process.env.NODE_ENV;
   const localApiUrl = process.env.REACT_APP_LOCAL_API_URL;
   const productionApiUrl = process.env.REACT_APP_PRODUCTION_API_URL;
 
